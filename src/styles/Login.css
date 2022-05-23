@@ -1,0 +1,30 @@
+.btn-login {
+  background-color: #00c194;
+  border-radius: 7px;
+  color: #fff;
+  border: none;
+  padding: 7px;
+}
+
+.btn-google {
+  background-color: #dc3545;
+  border-radius: 7px;
+  color: #fff;
+  border: none;
+  padding: 7px;
+}
+
+.btn-facebook {
+  background-color: #0a58ca;
+  border-radius: 7px;
+  color: #fff;
+  border: none;
+  padding: 7px;
+}
+
+.toRegister {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  margin-top: 12px;
+}

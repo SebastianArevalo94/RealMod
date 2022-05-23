@@ -1,0 +1,112 @@
+.properties {
+  /* Properties */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #00c194;
+}
+
+.featured-list {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 46px;
+  text-align: center;
+  color: #000000;
+}
+.edit-btn {
+  border: none;
+  background-color: #00c194;
+  padding: 7px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.agents-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 65%;
+  margin: auto;
+  justify-content: center;
+}
+
+.agent-card {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.agent-img-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.agent-img {
+  border-radius: 9px;
+}
+
+.agent-info {
+  position: absolute;
+  top: 75%;
+  left: 7%;
+  display: inline;
+  width: fit-content;
+  background-color: #fff;
+  color: #00c194;
+  padding: 5px 9px;
+  border-radius: 8px;
+}
+
+.buttons {
+  bottom: -3%;
+  right: 10%;
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #00c194;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.agent-body-name {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.agent-body-type {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #00c194;
+}
+
+.agent-body-phone {
+  display: flex;
+  gap: 5px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+}

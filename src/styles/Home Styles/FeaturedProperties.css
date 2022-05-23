@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Ubuntu:wght@500;700&display=swap");
+
+.properties {
+  /* Properties */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #00c194;
+}
+
+.card-img {
+  position: relative;
+  background-color: rgb(27, 27, 27, 20%);
+}
+
+.card-price {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.type {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #00c194;
+}
+
+.title {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  color: #131313;
+}
+
+.location-container {
+  display: flex;
+  gap: 7px;
+}
+
+.for {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  background-color: #00c194;
+  padding: 5px;
+  color: #fff;
+}
+
+.properties-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 55%;
+  margin: auto;
+}
+
+.propertie-card {
+  width: 270px;
+  /* height: 350px; */
+  background-color: #fff;
+}
+
+.propertie-img {
+  /* width: 85%; */
+}
+
+.propertie-img2 {
+  width: 85%;
+}
+
+.for2 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  background-color: #00c194;
+  padding: 5px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.card-price2 {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.location {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.detail-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+
+.detail-text {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.detail-btn {
+  border: none;
+  background-color: #00c194;
+  padding: 7px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.detail-txt {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 15px;
+  text-align: center;
+  color: #000000;
+}

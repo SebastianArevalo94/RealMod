@@ -1,0 +1,60 @@
+
+  .featured-list {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .filters-container {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .filter-item {
+    background-color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 8px;
+    width: 207px;
+    height: 207px;
+    position: relative;
+  }
+  
+  .filter-item:hover {
+    background-color: #00c194;
+  }
+  
+  .filter-text {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 15px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .filter-img {
+    border-radius: 50px;
+    background: #e9fffa;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+  }
+  
+  .go {
+    background-color: #fff;
+    position: absolute;
+    border-radius: 15px;
+    padding: 3px;
+    left: 45%;
+    top: 95%;
+  }

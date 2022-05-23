@@ -1,0 +1,78 @@
+.first {
+    background-color: #f1f8f6;
+  }
+  
+  .textInput {
+    padding: 45px 0 0 100px;
+  }
+  
+  .first-p1 {
+    font-family: "Mr Dafoe", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 79px;
+    line-height: 110px;
+    color: #e4e7e6;
+  }
+  
+  .first-p2 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 53px;
+    color: #001a14;
+  }
+  
+  .btn-section {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .btn {
+    background-color: #fff;
+  }
+  
+  .search-input {
+    width: 276px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+  }
+  
+  .line {
+    height: 15px;
+    color: #00c194;
+    /* background-color: #00C194; */
+    width: 15px;
+  }
+  
+  .select {
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  .slider-img {
+    margin: 9px;
+  }
+  
+  .search-btn {
+    border: none;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #00c194;
+    color: #fff;
+  }
+  
+  .search-container {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2px;
+  }

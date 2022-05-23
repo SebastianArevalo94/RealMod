@@ -1,11 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 // import Estudiantes from './components/Estudiantes';
-import AppRouter from './routes/AppRouter';
+import { Provider } from "react-redux";
+import { store } from "./redux/store/store";
+import AppRouters from "./routes/AppRouters";
+
 
 ReactDOM.render(
-    <AppRouter />,
-  document.getElementById('root')
+  <Provider store={store}>
+    <AppRouters />
+  </Provider>,
+  document.getElementById("root")
 );
-
-

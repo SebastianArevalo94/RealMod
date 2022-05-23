@@ -1,0 +1,83 @@
+.properties-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 55%;
+  margin: auto;
+}
+
+.card-img {
+  position: relative;
+  background-color: rgb(27, 27, 27, 20%);
+}
+
+.card-price {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.type {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #00c194;
+}
+
+.title {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  color: #131313;
+}
+
+.save-btn {
+  border: none;
+  background-color: #0d6efd;
+  padding: 7px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.addFile {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  border: none;
+  background-color: #00c194;
+  padding: 7px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.delete-btn {
+  border: none;
+  background-color: #dc3545;
+  padding: 7px;
+  border-radius: 8px;
+  color: #fff;
+}

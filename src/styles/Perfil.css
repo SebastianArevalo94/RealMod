@@ -1,0 +1,23 @@
+.profile-name {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+  }
+  
+  .profile-email {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }

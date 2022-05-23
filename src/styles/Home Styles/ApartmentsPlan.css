@@ -1,0 +1,58 @@
+.properties {
+  /* Properties */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #00c194;
+}
+
+.featured-list {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 46px;
+  text-align: center;
+  color: #000000;
+}
+
+.apartments-list {
+  list-style: none;
+  display: flex;
+  gap: 23px;
+  font-size: 22px;
+}
+
+.deluxe-div {
+  width: 530px;
+  background-color: #00c194;
+  padding: 45px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.deluxe-h3 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.deluxe-p {
+  /* Deluxe Portion */
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}

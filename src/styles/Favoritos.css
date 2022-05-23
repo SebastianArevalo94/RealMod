@@ -1,0 +1,66 @@
+.carrito-title {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 46px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.addCarritoBtn {
+  border: none;
+  padding: 13px;
+  color: #fff;
+  background-color: #00c194;
+}
+
+.properties-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 55%;
+  margin: auto;
+}
+
+.card-img {
+  position: relative;
+  background-color: rgb(27, 27, 27, 20%);
+}
+
+.card-price {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.type {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #00c194;
+}
+
+.title {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  color: #131313;
+}
