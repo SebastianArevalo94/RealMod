@@ -5,7 +5,7 @@ import { removeFromCart, removeAll } from "../redux/actions/actionCarrito";
 import DetailModal from "./modals/DetailModal";
 import CreditCardModal from "./modals/CreditCardModal";
 import { useNavigate } from "react-router-dom";
-import "../styles/Carrito.css"
+import "../styles/Carrito.css";
 
 const Carrito = () => {
   const carrito = useSelector((store) => store.carrito);
@@ -37,20 +37,36 @@ const Carrito = () => {
     <div className="mt-5">
       {carrito.length !== 0 ? (
         <>
-        <p className="carrito-title">Propiedades en Carrito </p>
-        <button onClick={()=>dispatch(removeAll())}>
-          Vaciar Carrito
-        </button>
+          <p className="carrito-title">Propiedades en Carrito </p>
+          <div className="d-flex justify-content-center">
+            <button
+              className="edit-btn m-1"
+              onClick={() => {
+                dispatch(removeAll());
+                Swal.fire({
+                  position: "center",
+                  icon: "success",
+                  title: "Carrito Vaciado",
+                  showConfirmButton: false,
+                  timer: 1500,
+                });
+              }}
+            >
+              Vaciar Carrito
+            </button>
+          </div>
         </>
       ) : (
         <>
           <p className="carrito-title">No hay propiedades en Carrito </p>
           <div className="d-flex justify-content-center">
-            <button className="addCarritoBtn" onClick={()=>navigate('/home')}>Agregar</button>
+            <button className="addCarritoBtn" onClick={() => navigate("/home")}>
+              Agregar
+            </button>
           </div>
         </>
       )}
-      <div className="properties-container">
+      <div className="properties-container mt-3">
         {carrito.map((item) => {
           const { id, nombre, precio, img, ubicacion, baños, camas, m2 } = item;
           return (

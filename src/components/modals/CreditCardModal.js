@@ -1,8 +1,10 @@
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { useDispatch } from "react-redux";
 import { Form, Modal } from "react-bootstrap";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import { removeAll } from "../../redux/actions/actionCarrito";
 
 const CreditCardModal = ({ onToggle, isOpen }) => {
   const formik = useFormik({
@@ -16,7 +18,7 @@ const CreditCardModal = ({ onToggle, isOpen }) => {
     validationSchema: Yup.object({
       numero: Yup.number().required(),
       fechaExp: Yup.string().required(),
-      titular: Yup.string().email().required(),
+      titular: Yup.string().required(),
       ccv: Yup.number().required(),
       cuotas: Yup.number().required(),
     }),
@@ -24,6 +26,7 @@ const CreditCardModal = ({ onToggle, isOpen }) => {
       console.log(data);
     },
   });
+  const dispatch = useDispatch();
   const navigate = useNavigate();
   return (
     <>
@@ -32,7 +35,7 @@ const CreditCardModal = ({ onToggle, isOpen }) => {
           <Modal.Title>Agregar Tarjeta de Credito</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form onSubmit={formik.handleSubmit}>
+          <Form onSubmit={formik.onSubmit}>
             <div className="d-flex gap-1">
               <img
                 src="https://w7.pngwing.com/pngs/923/610/png-transparent-diners-club-international-credit-card-mastercard-visa-credit-card-blue-text-trademark.png"
@@ -120,6 +123,7 @@ const CreditCardModal = ({ onToggle, isOpen }) => {
                     showConfirmButton: false,
                     timer: 1500,
                   });
+                  dispatch(removeAll())
                   navigate('/')
                 }}
               >
